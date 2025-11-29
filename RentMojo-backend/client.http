@@ -1,0 +1,19 @@
+@log=http://localhost:5000/auth
+
+post {{log}}/signup
+Content-Type: application/json
+
+{
+  "username": "deva",
+  "name": "devaprasah",
+  "emailid": "deva@gmail.com",
+  "password": "3241"
+}
+###
+post {{log}}/signin
+Content-Type: application/json
+
+{
+    "username":"deva",
+    "password":"3241"
+}

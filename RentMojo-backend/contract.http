@@ -1,0 +1,17 @@
+@log=http://localhost:5000/db
+
+get {{log}}/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dnZWQiOiJkZXZhIiwiaWF0IjoxNzYzODcyMTQ1LCJleHAiOjE3NjM4NzU3NDV9.NRlWbm4xMElK602rSVG--R3W-1TgTKYecJz7hbOQMWk
+
+###
+
+post {{log}}/
+Content-Type: application/json
+
+{
+    "userId": "660e35c4a37ef11e7acb2a91",
+    "subscriptionId": "6730ddfc92b8f177cbf15e99",
+    "deposit": "0",
+    "startDate": "2025-11-23",
+    "endDate": "2025-12-23"
+}
